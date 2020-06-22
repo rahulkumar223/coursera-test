@@ -8,6 +8,7 @@
    font-family: sans-serif;
 
 }
+
 .navbar-brand h1{ 
 
 color: #006400;
@@ -16,6 +17,7 @@ color: #006400;
 .navbar-brand a:hover, .navbar-brand a:focus{
 
 	text-decoration: none;
+
 }
 
 #nav-list a{
@@ -23,7 +25,12 @@ color: #006400;
 	text-align: center;
 	color: #006400;
 	font-size: 1.3em;
+
 }
+#nav-list a:hover{
+
+font-size: 2em;}
+
 hr{
 
 	border: 1px solid black;
