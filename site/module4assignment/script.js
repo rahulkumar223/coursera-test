@@ -1,22 +1,24 @@
-function(){
+(function(){
 
-names=["yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+names=["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
 
 for (var i=0; i<names.length ; i++){
+ firstletter=names[i].charAt(0).toLowerCase();
+ 
+if (firstletter ==="j"){
 
-var firstletter=names[i].charAT(0).tolowercase();
-if (firstletter=j){
-
-   speaker(names[i]);
+   byespeaker.speaker(names[i]);
 } 
 else{
 
 
-	speaker(names[i]);
+	hellospeaker.speaker(names[i]);
 }
 
 
 }
 
 
-};
+
+})();

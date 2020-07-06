@@ -1,6 +1,9 @@
-var greeting="hello"
-function speaker(name){
+var hellospeaker={}
+
+ hellospeaker.greeting="hello"
+   hellospeaker.speaker = function (name){
 
 
-	console.log(greeting + name)
+	console.log(hellospeaker.greeting + " "+ name)
 }
+
